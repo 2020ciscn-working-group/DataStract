@@ -1,0 +1,45 @@
+struct Accexp{
+          Accreq acc;
+          unsigned char* PIK;
+          unsigned char* signkey;
+          char* info;
+          char* access;
+          char* acctime;
+          char* accendtime;
+}
+void setPIK(unsigned char* PIK,Accexp * const this) {
+        this.PIK = PIK;
+    }
+ unsigned char* getPIK() {
+        return PIK;
+    }
+void setSignkey(unsigned char* signkey,Accexp * const this) {
+        this.signkey = signkey;
+    }
+ unsigned char* getSignkey() {
+        return signkey;
+    }
+void setInfo(char* info,Accexp * const this) {
+        this.info = info;
+    }
+char* getInfo() {
+        return info;
+    }
+void setAccess(char* access,Accexp * const this) {
+        this.access = access;
+    }
+char* getAccess() {
+        return access;
+    }
+void setAcctime(char* acctime,Accexp * const this) {
+        this.acctime = acctime;
+    }
+char* getAcctime() {
+        return acctime;
+    }
+void setAccendtime(char* accendtime,Accexp * const this) {
+        this.accendtime = accendtime;
+    }
+char* getAccendtime() {
+        return accendtime;
+    }

@@ -1,0 +1,48 @@
+struct Accreq{
+          char* accsee;
+          char* time;
+          char* info;
+          long infolen;
+          unsigned char* signdata;
+          long signdatalen;
+}
+void setAccsee(char* accsee,Accreq * const this) {
+        this.accsee = accsee;
+    }
+char* getAccsee() {
+        return accsee;
+    }
+void setTime(char* time,Accreq * const this) {
+        this.time = time;
+    }
+char* getTime() {
+        return time;
+    }
+
+void setInfo(char* info,Accreq * const this) {
+        this.info = info;
+    }
+char* getInfo() {
+        return info;
+    }
+
+ void setInfolen(long infolen,Accreq * const this) {
+        this.infolen = infolen;
+    }
+ long getInfolen() {
+        return infolen;
+    }
+
+ void setsigndata(unsigned char* signdata,Accreq * const this) {
+        this.signdata = signdata;
+    }
+unsigned char* getsigndata() {
+        return signdata;
+    }
+
+ void setsigndatalen(long signdatalen,Accreq * const this) {
+        this.signdatalen = signdatalen;
+    }
+long getsigndatalen() {
+        return signdatalen;
+    }
